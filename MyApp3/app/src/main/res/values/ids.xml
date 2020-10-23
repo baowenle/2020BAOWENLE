@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="iv_scale" type="id" />
+    <item name="btn_center" type="id" />
+    <item name="btn_fitCenter" type="id" />
+    <item name="btn_centerCrop" type="id" />
+    <item name="btn_centerInside" type="id" />
+    <item name="btn_fitXY" type="id" />
+    <item name="btn_fitStart" type="id" />
+    <item name="btn_cfitEnd" type="id" />
+    <item name="btn_fitEnd" type="id" />
+    <item name="btn_click" type="id" />
+</resources>
