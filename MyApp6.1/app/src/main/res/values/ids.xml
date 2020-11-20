@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_name" type="id" />
+    <item name="lv_cart" type="id" />
+    <item name="tv_title" type="id" />
+    <item name="tv_count" type="id" />
+    <item name="iv_cart" type="id" />
+    <item name="tv_total_price" type="id" />
+    <item name="gp_content" type="id" />
+    <item name="gp_empty" type="id" />
+    <item name="btn_shopping_channel" type="id" />
+    <item name="btn_settle" type="id" />
+    <item name="iv_launch" type="id" />
+    <item name="rg_indicate" type="id" />
+    <item name="btn_start" type="id" />
+</resources>
