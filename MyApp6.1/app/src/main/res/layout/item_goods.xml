@@ -5,6 +5,8 @@
     android:layout_height="wrap_content"
     android:background="@color/white"
     android:descendantFocusability="blocksDescendants"
+    android:paddingVertical="20dp"
+    android:paddingHorizontal="10dp"
     android:orientation="vertical">
 
 
