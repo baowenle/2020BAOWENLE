@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.MyApp8"
+    android:installLocation="auto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.MyApp8.SwipeRecyclerActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name="com.example.MyApp8.SwipeRefreshActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.MyApp8.RecyclerDynamicActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.MyApp8.RecyclerStaggeredActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.MyApp8.RecyclerCombineActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.MyApp8.RecyclerGridActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.MyApp8.RecyclerLinearActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.MyApp8.BannerTopActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name="com.example.MyApp8.BannerPagerActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name="com.example.MyApp8.BannerIndicatorActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name="com.example.MyApp8.TabCustomActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <!--        <activity-->
+        <!--            android:name=".TabLayoutActivity"-->
+        <!--            android:exported="true"-->
+        <!--            android:theme="@style/AppCompatTheme" />-->
+        <activity
+            android:name="com.example.MyApp8.ToolbarCustomActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name="com.example.MyApp8.SearchResultActvity"
+            android:theme="@style/AppCompatTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.example.MyApp8.SearchViewActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name="com.example.MyApp8.OverflowMenuActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name="com.example.MyApp8.ToolbarActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name="com.example.MyApp8.TabFragmentActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.MyApp8.TabGroupActivity"
+            android:exported="true" />
+        <activity android:name="com.example.MyApp8.TabThirdActivity" />
+        <activity android:name="com.example.MyApp8.TabSecondActivity" />
+        <activity android:name="com.example.MyApp8.TabFirstActivity" />
+        <activity
+            android:name="com.example.MyApp8.TabHostActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.MyApp8.TabButtonActivity"
+            android:exported="true" />
+        <activity android:name="com.example.MyApp8.TabLayoutActivity" android:theme="@style/AppCompatTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
